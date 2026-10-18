@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Autoría · Registro para diseñadores</title>
+  <style>
+    :root { --bg:#fafaf7; --card:#fff; --text:#1c1c1c; --muted:#6b6b6b; --accent:#5b3df5; --border:#e4e4df; --ok:#157347; --err:#b42318; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#141414; --card:#1e1e1e; --text:#f1f1f1; --muted:#a0a0a0; --accent:#8b78ff; --border:#333; --ok:#4ade80; --err:#f87171; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, sans-serif; background:var(--bg); color:var(--text); }
+    main { max-width: 640px; margin: 0 auto; padding: 24px 16px 64px; }
+    h1 { margin: 0 0 4px; font-size: 1.6rem; }
+    p.sub { color: var(--muted); margin: 0 0 24px; }
+    section { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin-bottom:16px; }
+    h2 { margin:0 0 12px; font-size:1.05rem; }
+    button { background:var(--accent); color:#fff; border:0; border-radius:8px; padding:10px 16px; font-size:1rem; cursor:pointer; }
+    button:disabled { opacity:.5; cursor:not-allowed; }
+    input[type=text], input[type=file] { width:100%; padding:10px; margin:8px 0; border:1px solid var(--border); border-radius:8px; background:var(--bg); color:var(--text); font-size:1rem; }
+    code { word-break: break-all; font-size:.85rem; }
+    .msg { margin-top:12px; font-size:.95rem; word-break: break-word; }
+    .ok { color: var(--ok); } .err { color: var(--err); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Registro de autoría</h1>
+  <p class="sub">Registra el hash de tu diseño en Stellar Testnet. Tu archivo nunca sale de tu navegador.</p>
+
+  <section>
+    <h2>1. Conectar wallet</h2>
+    <button id="btn-conectar">Conectar Freighter</button>
+    <div class="msg" id="msg-wallet"></div>
+  </section>
+
+  <section>
+    <h2>2. Registrar una obra</h2>
+    <input type="file" id="archivo-registrar" />
+    <div class="msg">Hash: <code id="hash-registrar">—</code></div>
+    <input type="text" id="titulo" placeholder="Título de la obra (ej. Logo Café Azul)" maxlength="80" />
+    <button id="btn-registrar" disabled>Registrar en la blockchain</button>
+    <div class="msg" id="msg-registrar"></div>
+  </section>
+
+  <section>
+    <h2>3. Verificar una obra</h2>
+    <input type="file" id="archivo-verificar" />
+    <button id="btn-verificar" disabled>Verificar</button>
+    <div class="msg" id="msg-verificar"></div>
+  </section>
+</main>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
