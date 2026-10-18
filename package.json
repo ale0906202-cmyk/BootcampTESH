@@ -1,0 +1,29 @@
+{
+  "name": "bootcamptesh",
+  "version": "1.0.0",
+  "description": "HOLA, ES ES MI PRIMER COMMIT PARA EL REPOSITORIO  Bootcamp TESH - Registro de Autoría en Stellar Proyecto final desarrollado para el Bootcamp TESH utilizando contratos inteligentes en Soroban.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ale0906202-cmyk/BootcampTESH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ale0906202-cmyk/BootcampTESH/issues"
+  },
+  "homepage": "https://github.com/ale0906202-cmyk/BootcampTESH#readme",
+  "dependencies": {
+    "@stellar/freighter-api": "^6.0.1",
+    "@stellar/stellar-sdk": "^17.2.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  }
+}
