@@ -11,3 +11,10 @@ Red: Stellar Testnet
 - `registrar(autor, hash, titulo)`: guarda el hash SHA-256 de una obra con la fecha del ledger. Requiere la firma del autor y rechaza hashes duplicados.
 - `verificar(hash)`: devuelve autor, título, fecha y ledger, o nada si no existe.
 - `obras_de(autor)`: lista los hashes registrados por un autor.
+
+## Cómo correr el contrato inteligente para diseñadores
+
+
+1. `npm install`
+2. `npm run dev` y abrir la dirección que imprime Vite
+3. Conectar Freighter (red Testnet), elegir un archivo desde tu dispositivo, escribir un título y registrar
