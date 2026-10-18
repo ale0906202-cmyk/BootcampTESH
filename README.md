@@ -3,5 +3,5 @@ HOLA, ES ES MI PRIMER COMMIT PARA EL REPOSITORIO
 Proyecto final desarrollado para el Bootcamp TESH utilizando contratos inteligentes en Soroban.
 
 Datos de la Entrega
-Contract ID: CDLZFC3SYJYDZT7K67VZ7SHPJVIEUVNIXF47ZG2FB2RMOQVU2HHGCYSC
+Contract ID: (ver sección Entregable)
 Red: Stellar Testnet
