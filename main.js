@@ -12,8 +12,7 @@ import {
 } from "@stellar/stellar-sdk";
 
 // ⚠️ Pega aquí la dirección (C...) de tu contrato desplegado
-const CONTRACT_ID = "CDLZFC3SYJYDZT7K67VZ7SHPJVIEUVNIXF47ZG2FB2RMOQVU2HHGCYSC";
-
+const CONTRACT_ID = "CAGXF67UEBHDPSRFC6PNN6XNGIMJSHC2E5YS7B24C7GK4VW3SN2O5QWF";
 const RPC_URL = "https://soroban-testnet.stellar.org";
 const PASSPHRASE = Networks.TESTNET;
 
