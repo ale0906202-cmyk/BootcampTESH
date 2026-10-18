@@ -1,1 +1,7 @@
 HOLA, ES ES MI PRIMER COMMIT PARA EL REPOSITORIO
+ Bootcamp TESH - Registro de Autoría en Stellar
+Proyecto final desarrollado para el Bootcamp TESH utilizando contratos inteligentes en Soroban.
+
+Datos de la Entrega
+Contract ID: CDLZFC3SYJYDZT7K67VZ7SHPJVIEUVNIXF47ZG2FB2RMOQVU2HHGCYSC
+Red: Stellar Testnet
